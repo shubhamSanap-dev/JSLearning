@@ -33,7 +33,7 @@ console.log('Result is ', resultValue);
 var result =addition('GK', 'Pune', 88);
 console.log('Result is ', result);
 
-
+console.log('==================================================================================================');
 
 function display(){
     return "Learning JS";
@@ -44,3 +44,13 @@ console.log();
 var greet = "Good Morning";
 var lengthGreet= greet.length;
 console.log(greet,'Length of String is:', lengthGreet);
+
+console.log('==================================================================================================');
+
+function randomNum (num1, num2, num3) {
+    var avarage= (num1+num2+num3)/3 ;
+    return avarage;
+    
+}
+var final = randomNum (30,50,98 );
+console.log(final);
