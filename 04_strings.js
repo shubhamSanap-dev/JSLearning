@@ -22,9 +22,9 @@ console.log(`------------------------------------`);
 
  
 
-var firstName = "Gajanan";
+var firstName = "shubham";
 
-var lastName = " Kharat";
+var lastName = "sanap";
 
 var result = firstName + lastName;
 
