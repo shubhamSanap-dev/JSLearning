@@ -52,3 +52,8 @@ console.log(`== operator considers null and undefined to be equal when performin
 result = 1==[1];
 console.log(`[1] is converted to 1 before the comparison and both sides have the same numeric value 1 result in ${result}`);
 
+
+function num(){
+
+}
+num();
