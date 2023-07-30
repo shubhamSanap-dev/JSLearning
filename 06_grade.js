@@ -1,5 +1,5 @@
 function gradeCalculation(marks){
-    if (marks>=90) {
+    if (marks>=90 && marks<=100) {
         console.log(`Funtastic marks: ${marks}, Your grade is A+`);
     } else {
         if (marks>=75 && marks<90) {
