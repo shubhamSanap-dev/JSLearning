@@ -17,4 +17,19 @@ console.log(array);
 
 
 
+//shallow copy 
+let shubham = {
+  age:25,
+  addtress:"sangli",
+  collge:{
+    name:"sbgi",
+    passout:"2021"
+  }
+}
 
+let shubham2 = {...shubham};
+
+shubham2.addtress="pune";
+shubham2.collge.passout=2023;
+console.log(shubham2.collge);
+console.log(shubham.collge);
